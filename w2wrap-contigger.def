@@ -75,5 +75,5 @@ make -j 4
     Version v0.0.1
 
 %help
-    This is a w2wrap-contig  container build using singularity 3.1.1 and GCC 5.5.0
+    This is a w2wrap-contig  container build using singularity 3.1.1 and GCC 5.5.0 and now testing on singularity hub
   
