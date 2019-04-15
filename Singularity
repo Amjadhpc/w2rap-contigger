@@ -1,4 +1,4 @@
-
+bb
 Bootstrap: docker
 From: gcc:5.5.0
 IncludeCmd: yes
@@ -42,3 +42,5 @@ git clone https://github.com/gonzalogacc/w2rap-contigger.git
 cd w2rap-contigger/
 cmake -D CMAKE_CXX_COMPILER=g++ .
 make -j 4
+%labels
+ HPC UEA Team  hpc.admin@uea.ac.uk
