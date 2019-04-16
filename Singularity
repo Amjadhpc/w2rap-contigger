@@ -44,3 +44,5 @@ cmake -D CMAKE_CXX_COMPILER=g++ .
 make -j 4
 %labels
  HPC UEA Team  hpc.admin@uea.ac.uk
+%help
+We are testing again
