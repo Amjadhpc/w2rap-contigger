@@ -40,7 +40,7 @@ rm -rf cmake-3.4.1-Linux-x86_64.tar.gz
 # Install w2rap-contigger
 git clone https://github.com/gonzalogacc/w2rap-contigger.git
 cd w2rap-contigger/
-cmake -D CMAKE_CXX_COMPILER=g++ .
+cmake -DCMAKE_CXX_COMPILER=g++ .
 make -j 4
 %labels
  HPC UEA Team  hpc.admin@uea.ac.uk
