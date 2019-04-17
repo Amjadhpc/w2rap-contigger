@@ -1,4 +1,4 @@
- bb
+   
 Bootstrap: docker
 From: gcc:5.5.0
 IncludeCmd: yes
@@ -23,7 +23,7 @@ IncludeCmd: yes
     mkdir /gpfs
     mkdir /shared
     mkdir /local
-
+    mkdir /scratch
     # Create and move to build directory
     mkdir /root/build && cd /root/build
 
